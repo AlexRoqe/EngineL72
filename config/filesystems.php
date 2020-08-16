@@ -65,6 +65,20 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
         ],
 
+        /* ** Al3x Roqe ** */
+	    'boucher' => [
+	        'driver' => 'local',
+	        'root' => storage_path('app/iboucher'),
+	        'url' => env('APP_URL').'/storage',
+	        'visibility' => 'public',
+	    ],
+
+	    'publico' => [
+	        'driver' => 'local',
+	        'root' => public_path('app/img'),
+	    ],
+	    /* ** Al3x Roqe ** */
+
     ],
 
     /*
