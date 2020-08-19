@@ -1,61 +1,105 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# ENGINE - CORE - LARAVEL 7.2.* - BOOTSTRAP
+
+---
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+  <a href="https://EngineLand.dev">
+    <img src="https://enginelandteam.github.io/dist/assets/image/T-15.png" width="400">
+  </a>
 </p>
 
-## About Laravel
+<h1 align="center">
+  Engine - Core
+</h1>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Nuestra velocidad de despliegue es muy alta.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Vaya más allá de los sitios web estáticos.** Obtenga todos los beneficios de los sitios web estáticos sin ninguno de las limitantes. Los sitios de ENGINE son aplicaciones Laravel completamente funcionales para que pueda crear alta calidad, aplicaciones web dinámicas, desde blogs hasta sitios de comercio electrónico y paneles de usuario.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Utilice una pila moderna para cada sitio.** No importa de dónde provengan los datos, los sitios de ENGINE son construidos usando tecnologia de punta. Cree un flujo de trabajo uniforme para usted y su equipo, independientemente de si los datos provienen del mismo backend.
 
-## Learning Laravel
+- **Cargar datos desde cualquier lugar.** ENGINE extrae datos de cualquier fuente de datos, ya sea Markdown archivos o una API REST o GraphQL. Usar complementos de origen para cargar sus datos, luego desarrolle usando la interfaz uniforme de ENGINE.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **El rendimiento está horneado.** Hace sus auditorías de rendimiento de forma predeterminada. ENGINE automatiza el código división, optimización de imágenes, inclusión de estilos críticos, carga diferida y captación previa de recursos, y más para garantizar que su sitio sea rápido, no se requiere ajuste manual.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Hosting tan bataros que hasta gratis son.** Los sitios ENGINE no requieren servidores, por lo que puedes alojar todo tu sitio sitio en un CDN por una fracción del costo de un sitio prestado por un servidor. Muchos sitios de ENGINE pueden ser alojado completamente gratis en servicios como GitHub Pages y Netlify.
 
-## Laravel Sponsors
+## ¿Qué hay en este documento?
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- [Ponte en marcha en 5 minutos](#-levantate-y-corre-en-5-minutos)
+- [Aprende Laravel](#-aprende-laravel)
+- [Aprende Bootstrap](#-aprende-bootstrap)
+- [Cómo contribuir](#-como-contribuir)
+- [Licencia](#-licencia)
+- [Gracias a nuestros colaboradores](#-gracias)
 
-### Premium Partners
+## 🚀 Ponte en marcha en 5 minutos
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+Puede obtener un nuevo sitio de EngineL72 en funcionamiento en su entorno de desarrollo local en 5 minutos con estos cuatro pasos:
 
-## Contributing
+1. **Clonamos desde el Repositorio de EngineL72**
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+    ```shell
+    git clone https://github.com/AlexRoqe/EngineL72.git EngineL72
+    ```
 
-## Code of Conduct
+2. **Ingresamos a la carpeta EngineL72**
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+    ```shell
+    cd EngineL72
+    ```
 
-## Security Vulnerabilities
+3. **Descargamos todas las dependecias y paquetes.**
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+   Registradas en el archivo Package.json
 
-## License
+    ```shell
+    composer install
+    npm install
+    ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+4. **Copiamos archivos**
+
+   Desde node_modules a public
+
+    ```shell
+    npm run dev
+    ```
+
+En este punto, tienes un sitio web de Engine - Laravel completamente funcional. Para obtener información adicional sobre cómo puede personalizar su sitio Engine, consulte en [Laravel](https://laravel.com/) y en [Bootstrap](https://getbootstrap.com/) ya que partimos de ello para la concepcion de [EngineL72](https://EngineL72..dev).
+
+## 🎓 Aprendiendo Laravel
+
+Documentación completa para Laravel vive [Laravel](https://laravel.com/)
+Repositorio para laravel en [GitHub](https://github.com/laravel/laravel).
+
+## 🎓 Aprendiendo Bootstrap
+
+Documentación completa para [Bootstrap](https://getbootstrap.com/).
+
+## ❗ Código de conducta
+
+Dedicamos mucho tiempo a construir una comunidad acogedora, diversa y segura. Esperamos que todos los participantes en la comunidad de Engine cumplan con nuestro [** Código de Conducta **](https://EngineLand.dev/conducta/). Por favor leelo. Por favor síguelo. En la comunidad de EngineL72, trabajamos duro para construirnos y crear cosas increíbles juntos. 💪💜
+
+## 🤝 Cómo contribuir
+
+Ya sea que nos esté ayudando a corregir errores, mejorar los documentos o correr la voz, ¡nos encantaría contar con usted como parte de nuestra comunidad en EngineL72! 💪💜
+
+Consulte nuestra [** Guía de contribución **](https://EngineLandd.com/contribuyendo) para obtener ideas sobre cómo contribuir y configurar los pasos para que nuestros repositorios funcionen en su máquina local.
+
+### Una nota sobre cómo está organizado este repositorio
+
+Este repositorio es un [Unico Repositorio](https://github.com/AlexRoqe/EngineL72). Esto significa que no tenemos por el momento [paquetes](/packages) separados.
+
+### Contribuyendo a EngineL72
+
+Actualmente solo aceptamos correcciones de errores para EngineL72.
+
+## Licencia
+
+Licenciado bajo la licencia [MIT License](./Licence).
+
+## 💜 Gracias
+
+Gracias a todo el Team que forma parte de este Proyecto pues sin ellos no podriamos seguir.
+Gracias a [Netlify](https://www.netlify.com/) por hospedarnos [EngineLand.dev](https://engineland.dev).

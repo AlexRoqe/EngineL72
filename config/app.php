@@ -175,6 +175,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /* Al3x Roqe */
+		Barryvdh\Debugbar\ServiceProvider::class,
+		/* Al3x Roqe */
+
     ],
 
     /*
@@ -227,6 +231,10 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+		/* Al3x Roqe */
+		'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        /* Al3x Roqe */
+        
     ],
 
 ];
